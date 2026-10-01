@@ -74,3 +74,4 @@ Orphan process: It is a process whose parent process gets killed and Process wit
 
 Zombie process: A zombie is a process that has already finished, but its parent hasn't collected its exit status yet.
 
+`echo $!`: It gives the PID of the most recently started background process.
