@@ -58,5 +58,19 @@ fg %1
 Ctrl + C -> Termination
 
 ---------------------------
+S  = sleeping
+N  = low-priority/niced process
 
+----------------------------
+NI (nice value) influences how much CPU scheduling priority a process gets.
+PRI is the priority value used by the scheduler for the kernel scheduling policy 
+
+nice command: `nice -n 10 sleep 500 &` -> Used at the start of a process
+renice command: `renice 10 -p PID` -> Used for a process already running
+
+Orphan and Zombie processes
+
+Orphan process: It is a process whose parent process gets killed and Process with PID 1 becomes the parent process.
+
+Zombie process: A zombie is a process that has already finished, but its parent hasn't collected its exit status yet.
 
