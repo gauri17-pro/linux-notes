@@ -45,8 +45,18 @@ Process = Linux is executing at the level of Operating System
 
 Job = something your shell is managing
 
+-------------------------
 
+sleep 300
+     ↓
+Ctrl + Z -> Stopping
+     ↓
+bg %1
+     ↓
+fg %1
+     ↓
+Ctrl + C -> Termination
 
-
+---------------------------
 
 
