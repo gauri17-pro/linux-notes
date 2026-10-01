@@ -39,6 +39,11 @@ SIGKILL
    ↓
 Kernel terminates the process
 
+Note: 
+
+Process = Linux is executing at the level of Operating System 
+
+Job = something your shell is managing
 
 
 
